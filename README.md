@@ -55,6 +55,19 @@ func main() {
 
 http://godoc.org/github.com/shopspring/decimal
 
+## Testing
+
+If you want to run the tests you'll need to use [Gom](https://github.com/mattn/gom)
+to automatically install the dependencies:
+
+```bash
+gom test
+```
+
+This command will auto install all test dependencies (marked in Gomfile) and will then
+run the test suite.
+  
+
 ## Production Usage
 
 * [Spring](https://shopspring.com/), since August 14, 2014.

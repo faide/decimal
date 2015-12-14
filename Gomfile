@@ -1,0 +1,5 @@
+# Execute only in the "test" environment.
+group :test do
+    gom 'github.com/mattn/go-sqlite3'
+	gom 'github.com/jmoiron/sqlx'
+end
